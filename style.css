@@ -1,0 +1,78 @@
+li
+{
+display: inline;
+}
+
+
+h1 {
+	font-family: cursive;
+	color: black;
+	font-size: 30px;
+	line-height: 55px;
+}
+
+body{
+	padding: 0;
+	margin: 20;
+	overflow-y:scroll;
+	font-family: arial;
+	font-size: 18;
+}
+
+nav{
+	background-color: #222;
+}
+
+nav p{
+	font-family: arial;
+	background-color: #222;
+	color: #222;
+	font-size: 24px;
+	line-height: 55px;
+	float: left;
+	padding: 0px 20px;
+	}
+
+nav ul {
+	float: left;
+	background-color: #222;
+}
+
+nav ul li{
+	float: left;
+	list-style: none;
+	position: relative;
+}
+
+nav ul li a{
+	display: block:
+	font-family: arial;
+	color: #222;
+	font-size: 14px;
+	padding: 24px 14px
+	text-decoration: none;
+}
+
+nav ul li ul {
+	display: none;
+	position: absolute;
+	padding: 10px;
+}
+
+nav ul li ul li a{
+	background-color: #222;
+	padding: 8px 10px
+}
+
+nav ul li a, visited{
+	color: #ccc;
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+}
+
+nav ul li:hover ul {
+	display: block;
+	
+
+	
